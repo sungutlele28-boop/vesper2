@@ -1,0 +1,37 @@
+{
+  "name": "Vesper – Local Music Player",
+  "short_name": "Vesper",
+  "id": "vesper-player",
+  "description": "Offline-first monochrome music player for your own .mp3 and .flac files. Nothing is uploaded.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "music",
+    "entertainment"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "data:[omitted-by-pwabuilder]",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:[omitted-by-pwabuilder]",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
